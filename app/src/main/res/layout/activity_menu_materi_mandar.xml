@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/top10">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/icon_back"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/icon_mandar"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/icon_mandar"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Mandar"
+        android:layout_marginLeft="165dp"
+        android:textColor="@color/colorPrimaryLight"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+
+            <Button
+                android:id="@+id/btn_mandar_materi1"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_custom2"
+                android:text="Sejarah"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/btn_mandar_materi2"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_custom2"
+                android:text="Tari Tradisional"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/btn_mandar_materi3"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_custom2"
+                android:text="Pakaian Adat"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/btn_mandar_materi4"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_custom2"
+                android:text="Adat Istiadat"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

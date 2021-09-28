@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#363845</color>
+    <color name="colorPrimaryLight">#F8F6EC</color>
+    <color name="yellow">#FFDE59</color>
+    <color name="cream">#FEE8B6</color>
+    <color name="blue">#A8D9D6</color>
+    <color name="tosca">#468A7B</color>
+</resources>
